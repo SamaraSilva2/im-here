@@ -1,6 +1,6 @@
 import { StatusBar } from "react-native";
 
-import { styles } from "./src/components/Participant/styles";
+import { styles } from "./src/screens/Home/styles";
 import Home  from "./src/screens/Home";
 
 
@@ -9,7 +9,7 @@ export default function App() {
     <> 
       <StatusBar 
         barStyle={"dark-content"}
-        backgroundColor={styles.button.backgroundColor}
+        backgroundColor={styles.eventDate.color}
         translucent
       />
       <Home />
